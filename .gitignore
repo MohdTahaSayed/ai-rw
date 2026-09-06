@@ -1,21 +1,28 @@
+# Python
 __pycache__/
-.ipynb_checkpoints/
-
 *.pyc
 
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
 .env
-
 venv/
+.venv/
 
+# Outputs
 outputs/
 
+# Datasets
+datasets/
 *.csv
 *.xlsx
-
 *.zip
 
+# Model files
 *.pth
 *.pt
 
+# System files
 .DS_Store
 Thumbs.db
